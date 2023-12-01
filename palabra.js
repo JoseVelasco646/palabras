@@ -27,11 +27,26 @@ if (tiene_acento){
 
 let terminan_n = ['n','N'];
 let terminan_s = ['s','S'];
-let terminan_vocal = ['á', 'é', 'í', 'ó', 'ú', 'Á', 'É', 'Í', 'Ó', 'Ú', 'ü', 'Ü'];
+let terminan_vocal = ['a','e','i','o','u','A','E','O','U','á', 'é', 'í', 'ó', 'ú', 'Á', 'É', 'Í', 'Ó', 'Ú', 'ü', 'Ü'];
 
-let palabra_agudas= palabra[palabra.length-1];
-if(palabra_agudas===)
-console.log(palabra_agudas)
+
+//aguda
+if (terminan_n.includes(palabra[palabra.length-1]) || terminan_s.includes(palabra[palabra.length-1]) || 
+    terminan_vocal.includes(palabra[palabra.length-1]) || terminan_vocal.includes[palabra.length-2]){
+        console.log(`La palabra ${palabra} es aguda`)
+
+//graves
+} else if(A) {
+    console.log(`La palabra ${palabra} no es aguda`)
+} 
+//esdrujulas
+else if(a){
+
+} 
+//sobresdrujulas
+else if(a){
+
+}
 
 
 
